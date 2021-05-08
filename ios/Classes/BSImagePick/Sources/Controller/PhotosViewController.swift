@@ -402,10 +402,10 @@ extension PhotosViewController: UIImagePickerControllerDelegate {
                 
                 DispatchQueue.main.async {
                     // TODO: move to a function. this is duplicated in didSelect
-                    self.assetStore.append(asset)
-                    self.updateDoneButton()
+                    //self.assetStore.append(asset)
+                    //self.updateDoneButton()
                     
-                    self.selectionClosure?(asset)// Call selection closure
+                    //self.selectionClosure?(asset)// Call selection closure
                     
                     picker.dismiss(animated: true, completion: nil)
                 }
