@@ -22,7 +22,7 @@
 
 import UIKit
 import Photos
-import BSGridCollectionViewLayout
+//import BSGridCollectionViewLayout
 
 final class PhotosViewController : UICollectionViewController {    
     var selectionClosure: ((_ asset: PHAsset) -> Void)?
@@ -402,10 +402,10 @@ extension PhotosViewController: UIImagePickerControllerDelegate {
                 
                 DispatchQueue.main.async {
                     // TODO: move to a function. this is duplicated in didSelect
-                    //self.assetStore.append(asset)
-                    //self.updateDoneButton()
-                    
-                    //self.selectionClosure?(asset)// Call selection closure
+//                    self.assetStore.append(asset)
+//                    self.updateDoneButton()
+//
+//                    self.selectionClosure?(asset)// Call selection closure
                     
                     picker.dismiss(animated: true, completion: nil)
                 }
