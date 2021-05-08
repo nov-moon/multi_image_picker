@@ -3,14 +3,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'multi_image_picker'
-  s.version          = '4.8.0'
+  s.version          = '1.0.0'
   s.summary          = 'Multi image picker'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/Sh1d0w/multi_image_picker'
+  s.homepage         = 'https://github.com/nov-moon/multi_image_picker'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Radoslav Vitanov' => 'radoslav.vitanov@icloud.com' }
+  s.author           = { 'dekai zhang' => 'radoslav.vitanov@icloud.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
