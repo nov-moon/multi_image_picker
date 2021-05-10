@@ -13,11 +13,10 @@ A flutter plugin project for Multi image picker .
   s.author           = { 'dekai zhang' => 'radoslav.vitanov@icloud.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
+  s.resource = 'Assets/*.png'
   s.public_header_files = 'Classes/**/*.h'
-  s.resource_bundles = { 'MultiBox' => 'Assert/*.png' }
 
   s.dependency 'Flutter'
-#  s.dependency 'BSImagePicker', '~> 2.10.3'
 
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
   s.swift_version = '5.0'

@@ -77,7 +77,7 @@ open class BSImagePickerViewController : UINavigationController {
         btn.titleEdgeInsets = UIEdgeInsets(top: 0.0, left: -titleImageGap, bottom: 0.0, right: titleImageGap)
         btn.contentEdgeInsets = UIEdgeInsets(top: 0.0, left: titleImageGap, bottom: 0.0, right: 0.0)
 
-        let image = UIImage(named: "arrow_down", in: BSImagePickerViewController.bundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+        let image = UIImage(named: "arrow_down")
         btn.setImage(image, for: .normal)
 
         btn.setTitleColor(btn.tintColor, for: .normal)
